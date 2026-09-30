@@ -1,0 +1,36 @@
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Model weights and datasets (never commit these) ---
+*.pth
+*.pt
+*.lmdb/
+data/
+textzoom/
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# --- Local working files, not part of the published project ---
+.claude/
+CLAUDE.md
+old/
+readme/
+Risorse/
+Relazione.md
+Relazione.pdf
+DESCRIZIONE_PROGETTO_FINALE.md
+GUIDA_STUDIO_PROGETTO.md
+new_Progetto_Computer_Vision.ipynb
+Nuovo documento di testo.txt

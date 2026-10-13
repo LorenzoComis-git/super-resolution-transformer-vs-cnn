@@ -1,0 +1,11 @@
+# Normalise line endings: LF in the repository, native in the working copy
+* text=auto
+
+# Text files tracked with LF
+*.md    text eol=lf
+*.ipynb text eol=lf
+
+# Binary files: never touched
+*.png binary
+*.jpg binary
+*.pth binary
